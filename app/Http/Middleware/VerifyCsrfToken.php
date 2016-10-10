@@ -13,6 +13,6 @@ class VerifyCsrfToken extends BaseVerifier
      */
     protected $except = [
         // 微信
-        '/wechat'
+        'wechat'
     ];
 }
